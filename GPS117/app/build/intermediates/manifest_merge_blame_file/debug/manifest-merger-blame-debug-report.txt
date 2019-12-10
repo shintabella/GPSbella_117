@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.gps117"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->F:\GPS117\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->F:\GPS117\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->F:\GPS117\app\src\main\AndroidManifest.xml:6:5-80
+12-->F:\GPS117\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->F:\GPS117\app\src\main\AndroidManifest.xml:7:5-78
+13-->F:\GPS117\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <dist:module dist:instant="true" />
+15-->F:\GPS117\app\src\main\AndroidManifest.xml:10:5-40
+15-->F:\GPS117\app\src\main\AndroidManifest.xml:10:18-37
+16
+17    <application
+17-->F:\GPS117\app\src\main\AndroidManifest.xml:12:5-26:19
+18        android:allowBackup="true"
+18-->F:\GPS117\app\src\main\AndroidManifest.xml:13:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->F:\GPS117\app\src\main\AndroidManifest.xml:14:9-43
+22        android:label="@string/app_name"
+22-->F:\GPS117\app\src\main\AndroidManifest.xml:15:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->F:\GPS117\app\src\main\AndroidManifest.xml:16:9-54
+24        android:supportsRtl="true"
+24-->F:\GPS117\app\src\main\AndroidManifest.xml:17:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->F:\GPS117\app\src\main\AndroidManifest.xml:18:9-40
+27        <activity android:name="com.example.gps117.MainActivity" >
+27-->F:\GPS117\app\src\main\AndroidManifest.xml:19:9-25:20
+27-->F:\GPS117\app\src\main\AndroidManifest.xml:19:19-47
+28            <intent-filter>
+28-->F:\GPS117\app\src\main\AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->F:\GPS117\app\src\main\AndroidManifest.xml:21:17-69
+29-->F:\GPS117\app\src\main\AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->F:\GPS117\app\src\main\AndroidManifest.xml:23:17-77
+31-->F:\GPS117\app\src\main\AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\aa2e52c620e6a3e702faa64f12b42fdc\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+35            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+35-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\aa2e52c620e6a3e702faa64f12b42fdc\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+36            android:exported="false"
+36-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\aa2e52c620e6a3e702faa64f12b42fdc\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+37            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+37-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\aa2e52c620e6a3e702faa64f12b42fdc\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+38
+39        <meta-data
+39-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3feda5c1b0e45308661ed8d4c8e158e4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+40            android:name="com.google.android.gms.version"
+40-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3feda5c1b0e45308661ed8d4c8e158e4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+41            android:value="@integer/google_play_services_version" />
+41-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3feda5c1b0e45308661ed8d4c8e158e4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+42    </application>
+43
+44</manifest>

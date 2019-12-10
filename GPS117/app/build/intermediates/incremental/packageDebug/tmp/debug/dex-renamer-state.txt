@@ -1,0 +1,4 @@
+#Sun Dec 08 18:22:16 ICT 2019
+base.0=F\:\\GPS117\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
